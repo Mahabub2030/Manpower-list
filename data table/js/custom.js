@@ -137,7 +137,7 @@ $(document).ready(function() {
                 customize: function (doc) {
                     // Change page size and orientation to A3
                     doc.pageOrientation = 'landscape';
-                    doc.pageSize = 'A3';
+                    doc.pageSize = 'A4';
                     doc.defaultStyle.fontSize = 10; 
 
                     // Apply text-center class to 9th and 10th columns in PDF
@@ -149,7 +149,7 @@ $(document).ready(function() {
                     // Increase font size for tbody (body)
                     doc.content[1].table.body.forEach(function(row) {
                         row.forEach(function(cell) {
-                            cell.fontSize = 11;
+                            cell.fontSize = 8;
                         });
                     });
                     
