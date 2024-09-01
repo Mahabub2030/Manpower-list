@@ -193,6 +193,7 @@ $(document).ready(function() {
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var currentDate = new Date();
     var currentMonthIndex = currentDate.getMonth();
+    // var currentMonth = months[August];
     var currentMonth = months[currentMonthIndex];
 
     // Update the month name for all rows
@@ -206,8 +207,8 @@ $(document).ready(function() {
 
     table.buttons().container().appendTo('#example_wrapper .col-md-6:eq(0)');
       // Set the current month in the page title and header
-      $('#currentMonthHeader').text(currentMonth);
-      document.title = "Manpower List  Month of  2024 - " + currentMonth ;
+    //   $('#currentMonthHeader').text(currentMonth);
+    //   document.title = "Manpower List  Month of  2024 - " + currentMonth ;
 }); 
  
 
