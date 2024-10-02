@@ -207,8 +207,8 @@ $(document).ready(function() {
 
     table.buttons().container().appendTo('#example_wrapper .col-md-6:eq(0)');
       // Set the current month in the page title and header
-    //   $('#currentMonthHeader').text(currentMonth);
-    //   document.title = "Manpower List  Month of  2024 - " + currentMonth ;
+      $('#currentMonthHeader').text(currentMonth);
+      document.title = "Manpower List  Month of  2024 - " + currentMonth ;
 }); 
  
 
