@@ -80,4 +80,5 @@ $(document).ready(function() {
     // Set the current month in the page title and header
     $('#currentMonthHeader').text(currentMonth);
     document.title = "Manpower List  Month of 2024 - " + currentMonth ;
+
 });
