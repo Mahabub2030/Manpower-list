@@ -199,6 +199,7 @@ $(document).ready(function() {
     // Update the month name for all rows
     table.column(6).nodes().to$().text(currentMonth);
 
+   
     // Redraw the DataTable to reflect the changes
     table.draw();
 
@@ -210,5 +211,12 @@ $(document).ready(function() {
       $('#currentMonthHeader').text(currentMonth);
     //   document.title = "Manpower List  Month of  2024 - " + currentMonth ;
 }); 
+
+
+
+
+
+
+
  
 
